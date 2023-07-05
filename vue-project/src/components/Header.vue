@@ -1,12 +1,12 @@
 <template>
-  <div class="container-header">
-    <div class="btn-group" role="group" aria-label="Basic outlined example">
+  <div className="container-header">
+    <div className="btn-group" role="group" aria-label="Basic outlined example">
       <router-link to="/briefcase" class="btn btn-outline-primary">Портфель</router-link>
       <router-link to="/catalog" class="btn btn-outline-primary">Каталог акций</router-link>
-      <button type="button" class="btn btn-outline-primary">История операций</button>
+      <button type="button" className="btn btn-outline-primary">История операций</button>
     </div>
-    <div class="card header">
-      <div class="card-body">
+    <div className="card header">
+      <div className="card-body">
         Доступный счет: {{ money }}
       </div>
     </div>
@@ -29,7 +29,7 @@ export default {
   position: fixed;
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
 }
 
 .btn-group {
