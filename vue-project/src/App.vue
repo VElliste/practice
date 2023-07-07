@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-<!--    <Briefcase />-->
+    <!--    <Briefcase />-->
     <router-view></router-view>
   </div>
 </template>
